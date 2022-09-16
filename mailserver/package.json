@@ -1,0 +1,15 @@
+{
+    "name": "mailserver",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "maildev -w 8001 -s 1025",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "maildev": "^2.0.5"
+    }
+  }
