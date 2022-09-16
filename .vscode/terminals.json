@@ -10,18 +10,6 @@
             "commands": [
                 "docker-compose up"
             ]
-        },
-        {
-            "name": "Mailserver",
-            "description": "Lokale mailserver, beschikbaar op 8001 en 1025",
-            "open": true,
-            "focus": false,
-            "commands": [
-                "sleep 20",
-                "cd mailserver",
-                "npm install",
-                "npm start"
-            ]
         }
     ]
 }
